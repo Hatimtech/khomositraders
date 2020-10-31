@@ -1,0 +1,80 @@
+0000.013 (R) [notice] Looking for db archive: file name: backup_2020-09-03-1207_khomosi_6735c0e58fa1-db.gz
+0000.013 (R) [notice] Archive is expected to be size: 721 KB: OK
+0000.014 (R) [notice] Looking for plugins archive: file name: backup_2020-09-03-1207_khomosi_6735c0e58fa1-plugins.zip
+0000.014 (R) [notice] Archive is expected to be size: 31751.1 KB: OK
+0000.014 (R) [notice] Looking for themes archive: file name: backup_2020-09-03-1207_khomosi_6735c0e58fa1-themes.zip
+0000.014 (R) [notice] Archive is expected to be size: 56262.8 KB: OK
+0000.014 (R) [notice] Looking for uploads archive: file name: backup_2020-09-03-1207_khomosi_6735c0e58fa1-uploads.zip
+0000.014 (R) [notice] Archive is expected to be size: 110419.9 KB: OK
+0000.014 (R) [notice] Looking for others archive: file name: backup_2020-09-03-1207_khomosi_6735c0e58fa1-others.zip
+0000.014 (R) [notice] Archive is expected to be size: 0.2 KB: OK
+0000.018 (R) [notice] Unpacking backup... (backup_2020-09-03-1207_khomosi_6735c0e58fa1-db.gz, 0.7 Mb)
+0000.019 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.117 (R) [notice] Enabling Maintenance mode&#8230;
+0000.258 (R) [notice] Backup created by: 1.16.28
+0000.259 (R) [notice] Backup of: http://www.khomositraders.com
+0000.272 (R) [notice] Content URL: http://www.khomositraders.com/wp-content
+0000.272 (R) [notice] Uploads URL: http://www.khomositraders.com/wp-content/uploads
+0000.272 (R) [notice] Old table prefix: wp_
+0000.272 (R) [notice] Site information: multisite = 0
+0000.274 (R) [notice] New table prefix: wp_
+0000.317 (R) [notice] Processing table (MyISAM):  wp_options
+0000.735 (R) [notice] Processing table (MyISAM):  wp_users
+0000.772 (R) [notice] Processing table (MyISAM):  wp_usermeta
+0000.909 (R) [notice] Processing table (MyISAM):  wp_commentmeta
+0000.949 (R) [notice] Processing table (MyISAM):  wp_comments
+0000.980 (R) [notice] Processing table (MyISAM):  wp_links
+0001.010 (R) [notice] Processing table (MyISAM):  wp_postmeta
+0009.140 (R) [notice] Database queries processed: 50 in 9.12 seconds
+0012.989 (R) [notice] Processing table (MyISAM):  wp_posts
+0013.133 (R) [notice] Processing table (MyISAM):  wp_term_relationships
+0013.160 (R) [notice] Processing table (MyISAM):  wp_term_taxonomy
+0013.192 (R) [notice] Processing table (MyISAM):  wp_termmeta
+0013.217 (R) [notice] Processing table (MyISAM):  wp_terms
+0013.222 (R) [notice] Processing table (InnoDB):  wp_gglcptch_whitelist
+0013.242 (R) [notice] Processing table (MyISAM):  wp_layerslider
+0013.246 (R) [notice] Processing table (MyISAM):  wp_responsive_thumbnail_slider
+0013.252 (R) [notice] Processing table (MyISAM):  wp_revslider_css
+0013.263 (R) [notice] Processing table (MyISAM):  wp_revslider_layer_animations
+0013.268 (R) [notice] Processing table (MyISAM):  wp_revslider_navigations
+0013.272 (R) [notice] Processing table (MyISAM):  wp_revslider_sliders
+0013.278 (R) [notice] Processing table (MyISAM):  wp_revslider_slides
+0013.285 (R) [notice] Processing table (MyISAM):  wp_revslider_static_slides
+0013.287 (R) [notice] Database queries processed: 100 in 13.26 seconds
+0014.797 (R) [notice] Disabling Maintenance mode&#8230;
+0014.797 (R) [notice] Finished: lines processed: 103 in 14.77 seconds
+0014.797 (R) [notice] Cleaning up rubbish...
+0014.807 (R) [notice] Unpacking backup... (backup_2020-09-03-1207_khomosi_6735c0e58fa1-plugins.zip, 31 MB)
+0015.258 (R) [notice] Unzip progress: 1002 out of 7116 files (275 KB, plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/FunctionCallsFormulaLoader.php)
+0015.392 (R) [notice] Unzip progress: 2003 out of 7116 files (7.4 MB, plugins/updraftplus/images/icons/googledrive.png)
+0015.855 (R) [notice] Unzip progress: 3004 out of 7116 files (39.2 MB, plugins/wp-file-manager/lib/themes/windows - 10/images/16px/select_all.png)
+0016.097 (R) [notice] Unzip progress: 4005 out of 7116 files (49.5 MB, plugins/revslider/public/assets/assets/svg/busy-icons-svg/tablet-chart3.svg)
+0016.241 (R) [notice] Unzip progress: 5006 out of 7116 files (51.9 MB, plugins/revslider/public/assets/assets/svg/image/ic_crop_5_4_24px.svg)
+0016.534 (R) [notice] Unzip progress: 6007 out of 7116 files (65.1 MB, plugins/js_composer/include/autoload/bc-access-rules-4.8.php)
+0016.793 (R) [notice] Unzip progress: 7008 out of 7116 files (78.4 MB, plugins/jquery-vertical-accordion-menu/skins/black.css)
+0016.812 (R) [notice] Unzip progress: 7116 out of 7116 files (79.8 MB, plugins/LayerSlider/static/layerslider/skins/borderlesslight/skin.png)
+0016.819 (R) [notice] Moving old data out of the way...
+0016.996 (R) [notice] Moving unpacked backup into place...
+0017.284 (R) [notice] Cleaning up rubbish...
+0017.286 (R) [notice] Unpacking backup... (backup_2020-09-03-1207_khomosi_6735c0e58fa1-themes.zip, 54.9 MB)
+0017.687 (R) [notice] Unzip progress: 1002 out of 2020 files (8.3 MB, themes/betheme/functions/importer/demo/be/ebook/widget_data.json)
+0018.569 (R) [notice] Unzip progress: 2003 out of 2020 files (64.9 MB, themes/twentyseventeen/assets/js/skip-link-focus-fix.js)
+0018.574 (R) [notice] Unzip progress: 2020 out of 2020 files (65 MB, themes/twentyseventeen/comments.php)
+0018.577 (R) [notice] Moving old data out of the way...
+0018.607 (R) [notice] Moving unpacked backup into place...
+0018.687 (R) [notice] Cleaning up rubbish...
+0018.689 (R) [notice] Unpacking backup... (backup_2020-09-03-1207_khomosi_6735c0e58fa1-uploads.zip, 107.8 MB)
+0020.136 (R) [notice] Unzip progress: 1002 out of 6712 files (22.8 MB, uploads/2015/06/WhatsApp-Image-2020-02-15-at-17.02.09-85x85.jpeg)
+0020.537 (R) [notice] Unzip progress: 2003 out of 6712 files (53.2 MB, uploads/2017/02/Edge-Banding-300x237.jpg)
+0020.750 (R) [notice] Unzip progress: 3004 out of 6712 files (69.8 MB, uploads/2017/03/Wooden-Biscuit-184x146.jpg)
+0020.898 (R) [notice] Unzip progress: 4005 out of 6712 files (77 MB, uploads/2017/04/LOCK-CYLINDER-2-50x40.jpg)
+0021.022 (R) [notice] Unzip progress: 5006 out of 6712 files (83.6 MB, uploads/2017/06/CHIESEL-300x237.jpg)
+0021.182 (R) [notice] Unzip progress: 6007 out of 6712 files (93 MB, uploads/2019/12/new-year-1200x750.jpeg)
+0021.369 (R) [notice] Unzip progress: 6712 out of 6712 files (106.4 MB, uploads/2019/12/2-e1577337122348-150x150.jpeg)
+0021.378 (R) [notice] Moving old data out of the way...
+0021.379 (R) [notice] Moving unpacked backup into place...
+0021.648 (R) [notice] Cleaning up rubbish...
+0021.650 (R) [notice] Unpacking backup... (backup_2020-09-03-1207_khomosi_6735c0e58fa1-others.zip, 0 MB)
+0021.651 (R) [notice] Unzip progress: 1 out of 1 files (28 B, index.php)
+0021.651 (R) [notice] Cleaning up rubbish...
+0021.700 (R) [notice] Restore successful!

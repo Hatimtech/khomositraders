@@ -1,0 +1,4 @@
+[26-Oct-2018 01:09:24 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/khomositraders/public_html/wp-content/themes/twentyfifteen/inc/back-compat.php on line 26
+[26-Oct-2018 05:23:42 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/khomositraders/public_html/wp-content/themes/twentyfifteen/inc/custom-header.php on line 41
+[26-Oct-2018 09:21:40 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/khomositraders/public_html/wp-content/themes/twentyfifteen/inc/customizer.php on line 83
+[26-Oct-2018 14:24:33 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/khomositraders/public_html/wp-content/themes/twentyfifteen/inc/template-tags.php on line 171

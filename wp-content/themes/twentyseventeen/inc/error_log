@@ -1,0 +1,6 @@
+[06-Dec-2018 11:17:33 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/khomositraders/public_html/wp-content/themes/twentyseventeen/inc/template-tags.php on line 195
+[06-Dec-2018 23:57:01 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/khomositraders/public_html/wp-content/themes/twentyseventeen/inc/icon-functions.php on line 22
+[07-Dec-2018 04:53:15 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/khomositraders/public_html/wp-content/themes/twentyseventeen/inc/icon-functions.php on line 22
+[22-May-2019 09:16:49 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/khomositraders/public_html/wp-content/themes/twentyseventeen/inc/back-compat.php on line 26
+[22-May-2019 17:15:17 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/khomositraders/public_html/wp-content/themes/twentyseventeen/inc/back-compat.php on line 26
+[22-May-2019 17:15:43 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/khomositraders/public_html/wp-content/themes/twentyseventeen/inc/back-compat.php on line 26

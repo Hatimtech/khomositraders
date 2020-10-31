@@ -1,0 +1,112 @@
+0000.007 () Opened log file at time: Mon, 07 Sep 2020 16:59:27 +0000 on http://khomositraders.com
+0000.008 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.28 WP: 5.5.1 PHP: 7.1.33-16+ubuntu16.04.1+deb.sury.org+1 (fpm-fcgi, Linux ip-172-26-3-216 4.4.0-1107-aws #118-Ubuntu SMP Sun May 3 23:28:51 UTC 2020 x86_64) MySQL: 5.7.25 WPLANG: en_US Server: nginx/1.10.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.008 () Free space on disk containing Updraft's temporary directory: 8536.1 MB
+0000.005 () Opened log file at time: Mon, 07 Sep 2020 16:59:28 +0000 on http://khomositraders.com
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.28 WP: 5.5.1 PHP: 7.1.33-16+ubuntu16.04.1+deb.sury.org+1 (fpm-fcgi, Linux ip-172-26-3-216 4.4.0-1107-aws #118-Ubuntu SMP Sun May 3 23:28:51 UTC 2020 x86_64) MySQL: 5.7.25 WPLANG: en_US Server: nginx/1.10.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.8M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 () Free space on disk containing Updraft's temporary directory: 8536.1 MB
+0000.006 () Ensuring WP_Filesystem is setup for a restore
+0000.006 () WP_Filesystem is setup and ready for a restore
+0000.012 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_gglcptch_whitelist","wp_layerslider","wp_responsive_thumbnail_slider","wp_revslider_css","wp_revslider_layer_animations","wp_revslider_navigations","wp_revslider_sliders","wp_revslider_slides","wp_revslider_static_slides"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.018 () Entity: db
+0000.018 () restore_backup(backup_file=backup_2020-09-03-1207_khomosi_6735c0e58fa1-db.gz, type=db, info=a:0:{}, last_one=)
+0000.018 () Unpacking backup... (backup_2020-09-03-1207_khomosi_6735c0e58fa1-db.gz, 0.7 Mb)
+0000.019 () Database successfully unpacked
+0000.019 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.019 () Using direct MySQL access; value of use_mysqli is: 1
+0000.021 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.117 () Max packet size: 32 MB
+0000.117 () Entering maintenance mode
+0000.117 () Enabling Maintenance mode&#8230;
+0000.258 () Backup created by: 1.16.28
+0000.258 () Backup of: http://www.khomositraders.com
+0000.272 () Content URL: http://www.khomositraders.com/wp-content
+0000.272 () Uploads URL: http://www.khomositraders.com/wp-content/uploads
+0000.272 () Old table prefix: wp_
+0000.272 () Site information: multisite=0
+0000.274 () New table prefix: wp_
+0000.317 () Processing table (MyISAM): wp_options
+0000.649 () Restoring prior UD configuration (table: wp_options; keys: 97)
+0000.735 () Processing table (MyISAM): wp_users
+0000.772 () Processing table (MyISAM): wp_usermeta
+0000.909 () Processing table (MyISAM): wp_commentmeta
+0000.949 () Processing table (MyISAM): wp_comments
+0000.980 () Processing table (MyISAM): wp_links
+0001.010 () Processing table (MyISAM): wp_postmeta
+0009.140 () Database queries processed: 50 in 9.12 seconds
+0012.989 () Processing table (MyISAM): wp_posts
+0013.133 () Processing table (MyISAM): wp_term_relationships
+0013.160 () Processing table (MyISAM): wp_term_taxonomy
+0013.192 () Processing table (MyISAM): wp_termmeta
+0013.217 () Processing table (MyISAM): wp_terms
+0013.222 () Processing table (InnoDB): wp_gglcptch_whitelist
+0013.242 () Processing table (MyISAM): wp_layerslider
+0013.246 () Processing table (MyISAM): wp_responsive_thumbnail_slider
+0013.252 () Processing table (MyISAM): wp_revslider_css
+0013.263 () Processing table (MyISAM): wp_revslider_layer_animations
+0013.268 () Processing table (MyISAM): wp_revslider_navigations
+0013.272 () Processing table (MyISAM): wp_revslider_sliders
+0013.278 () Processing table (MyISAM): wp_revslider_slides
+0013.285 () Processing table (MyISAM): wp_revslider_static_slides
+0013.287 () Database queries processed: 100 in 13.26 seconds
+0013.290 () UpdraftPlus Vault: this site has not been connected - check your settings
+0014.797 () Unlocking database and leaving maintenance mode
+0014.797 () Disabling Maintenance mode&#8230;
+0014.797 () Finished: lines processed: 103 in 14.77 seconds
+0014.797 () Cleaning up rubbish...
+0014.807 () Entity: plugins
+0014.807 () restore_backup(backup_file=backup_2020-09-03-1207_khomosi_6735c0e58fa1-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:54:"/opt/bitnami/apache2/htdocs/khomosi/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0014.807 () Unpacking backup... (backup_2020-09-03-1207_khomosi_6735c0e58fa1-plugins.zip, 31 MB)
+0014.809 () Unzipping backup_2020-09-03-1207_khomosi_6735c0e58fa1-plugins.zip to /opt/bitnami/apache2/htdocs/khomosi/wp-content/upgrade/5e69da21/ using UpdraftPlus_ZipArchive, starting index 0
+0015.258 () Unzip progress: 1002 out of 7116 files (275 KB, plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/FunctionCallsFormulaLoader.php)
+0015.392 () Unzip progress: 2003 out of 7116 files (7.4 MB, plugins/updraftplus/images/icons/googledrive.png)
+0015.855 () Unzip progress: 3004 out of 7116 files (39.2 MB, plugins/wp-file-manager/lib/themes/windows - 10/images/16px/select_all.png)
+0016.097 () Unzip progress: 4005 out of 7116 files (49.5 MB, plugins/revslider/public/assets/assets/svg/busy-icons-svg/tablet-chart3.svg)
+0016.241 () Unzip progress: 5006 out of 7116 files (51.9 MB, plugins/revslider/public/assets/assets/svg/image/ic_crop_5_4_24px.svg)
+0016.534 () Unzip progress: 6007 out of 7116 files (65.1 MB, plugins/js_composer/include/autoload/bc-access-rules-4.8.php)
+0016.793 () Unzip progress: 7008 out of 7116 files (78.4 MB, plugins/jquery-vertical-accordion-menu/skins/black.css)
+0016.812 () Unzip progress: 7116 out of 7116 files (79.8 MB, plugins/LayerSlider/static/layerslider/skins/borderlesslight/skin.png)
+0016.818 () Moving old data: filesystem method / updraft_dir is potentially possible
+0016.819 () Moving old data: can potentially use wp_filesystem method / -old
+0016.819 () Moving old data out of the way...
+0016.995 () Top-level entities being moved: akismet, index.php, updraftplus
+0016.996 () Moving unpacked backup into place...
+0017.283 () Top-level entities being moved: revslider, jquery-vertical-accordion-menu, force-regenerate-thumbnails, advanced-nocaptcha-recaptcha, contact-form-7, google-sitemap-generator, wp-file-manager, wp-gmail-smtp, google-captcha, LayerSlider, akismet, duplicate-post, index.php, hello.php, updraftplus, mailchimp-forms-by-mailmunch, error_log, wp-responsive-thumbnail-slider, js_composer, wp-db-backup
+0017.284 () Cleaning up rubbish...
+0017.286 () Entity: themes
+0017.286 () restore_backup(backup_file=backup_2020-09-03-1207_khomosi_6735c0e58fa1-themes.zip, type=themes, info=a:2:{s:4:"path";s:53:"/opt/bitnami/apache2/htdocs/khomosi/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0017.286 () Unpacking backup... (backup_2020-09-03-1207_khomosi_6735c0e58fa1-themes.zip, 54.9 MB)
+0017.286 () Unzipping backup_2020-09-03-1207_khomosi_6735c0e58fa1-themes.zip to /opt/bitnami/apache2/htdocs/khomosi/wp-content/upgrade/20f5f328/ using UpdraftPlus_ZipArchive, starting index 0
+0017.687 () Unzip progress: 1002 out of 2020 files (8.3 MB, themes/betheme/functions/importer/demo/be/ebook/widget_data.json)
+0018.569 () Unzip progress: 2003 out of 2020 files (64.9 MB, themes/twentyseventeen/assets/js/skip-link-focus-fix.js)
+0018.574 () Unzip progress: 2020 out of 2020 files (65 MB, themes/twentyseventeen/comments.php)
+0018.577 () Moving old data: filesystem method / updraft_dir is potentially possible
+0018.577 () Moving old data: can potentially use wp_filesystem method / -old
+0018.577 () Moving old data out of the way...
+0018.607 () Top-level entities being moved: twentyseventeen, twentynineteen, index.php, twentytwenty
+0018.607 () Moving unpacked backup into place...
+0018.687 () Top-level entities being moved: twentyseventeen, twentyfifteen, index.php, betheme, twentysixteen, betheme.zip
+0018.687 () Cleaning up rubbish...
+0018.689 () Entity: uploads
+0018.689 () restore_backup(backup_file=backup_2020-09-03-1207_khomosi_6735c0e58fa1-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/opt/bitnami/apache2/htdocs/khomosi/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0018.689 () Unpacking backup... (backup_2020-09-03-1207_khomosi_6735c0e58fa1-uploads.zip, 107.8 MB)
+0018.689 () Unzipping backup_2020-09-03-1207_khomosi_6735c0e58fa1-uploads.zip to /opt/bitnami/apache2/htdocs/khomosi/wp-content/upgrade/56ac4d44/ using UpdraftPlus_ZipArchive, starting index 0
+0020.136 () Unzip progress: 1002 out of 6712 files (22.8 MB, uploads/2015/06/WhatsApp-Image-2020-02-15-at-17.02.09-85x85.jpeg)
+0020.537 () Unzip progress: 2003 out of 6712 files (53.2 MB, uploads/2017/02/Edge-Banding-300x237.jpg)
+0020.750 () Unzip progress: 3004 out of 6712 files (69.8 MB, uploads/2017/03/Wooden-Biscuit-184x146.jpg)
+0020.898 () Unzip progress: 4005 out of 6712 files (77 MB, uploads/2017/04/LOCK-CYLINDER-2-50x40.jpg)
+0021.022 () Unzip progress: 5006 out of 6712 files (83.6 MB, uploads/2017/06/CHIESEL-300x237.jpg)
+0021.182 () Unzip progress: 6007 out of 6712 files (93 MB, uploads/2019/12/new-year-1200x750.jpeg)
+0021.369 () Unzip progress: 6712 out of 6712 files (106.4 MB, uploads/2019/12/2-e1577337122348-150x150.jpeg)
+0021.378 () Moving old data: filesystem method / updraft_dir is potentially possible
+0021.378 () Moving old data: can potentially use wp_filesystem method / -old
+0021.378 () Moving old data out of the way...
+0021.379 () Moving unpacked backup into place...
+0021.648 () Cleaning up rubbish...
+0021.650 () Entity: others
+0021.650 () restore_backup(backup_file=backup_2020-09-03-1207_khomosi_6735c0e58fa1-others.zip, type=others, info=a:2:{s:4:"path";s:46:"/opt/bitnami/apache2/htdocs/khomosi/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0021.650 () Unpacking backup... (backup_2020-09-03-1207_khomosi_6735c0e58fa1-others.zip, 0 MB)
+0021.650 () Unzipping backup_2020-09-03-1207_khomosi_6735c0e58fa1-others.zip to /opt/bitnami/apache2/htdocs/khomosi/wp-content/upgrade/6b1016cb/ using UpdraftPlus_ZipArchive, starting index 0
+0021.651 () Unzip progress: 1 out of 1 files (28 B, index.php)
+0021.651 () Cleaning up rubbish...
+0021.700 () Restore successful!
+0021.700 () Restore successful

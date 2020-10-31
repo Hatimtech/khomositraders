@@ -1,0 +1,4 @@
+0000.001 (1) Opened log file at time: Mon, 07 Sep 2020 17:00:55 +0000 on http://www.khomositraders.com
+0000.004 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.28 WP: 5.5.1 PHP: 7.1.33-16+ubuntu16.04.1+deb.sury.org+1 (fpm-fcgi, Linux ip-172-26-3-216 4.4.0-1107-aws #118-Ubuntu SMP Sun May 3 23:28:51 UTC 2020 x86_64) MySQL: 5.7.25 WPLANG: en_US Server: nginx/1.10.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 6M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (1) Free space on disk containing Updraft's temporary directory: 8440.6 MB
+0000.006 (1) This backup task (6735c0e58fa1) is either complete or began over 2 days ago: ending (1599498055.0404, ) (existing jobdata keys: )

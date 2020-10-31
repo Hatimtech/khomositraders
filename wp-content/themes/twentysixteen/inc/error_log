@@ -1,0 +1,2 @@
+[30-Oct-2018 21:17:14 Etc/GMT] PHP Fatal error:  Call to undefined function is_admin() in /home/khomositraders/public_html/wp-content/themes/twentysixteen/inc/template-tags.php on line 169
+[03-Nov-2018 20:31:53 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/khomositraders/public_html/wp-content/themes/twentysixteen/inc/customizer.php on line 61
